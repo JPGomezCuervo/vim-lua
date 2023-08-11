@@ -31,7 +31,7 @@ return require('packer').startup(function(use)
     end,}
   use {
 	  'VonHeikemen/lsp-zero.nvim',
-	  branch = 'v1.x',
+	  branch = 'v2.x',
 	  requires = {
 		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},
@@ -50,4 +50,13 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+  -- autotag
+  use {
+    "windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup()
+    end
+  }
+  use "windwp/nvim-ts-autotag"
+  use "leafOfTree/vim-matchtag"
+
 end)
