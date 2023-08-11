@@ -5,6 +5,7 @@ option.nu = true
 option.relativenumber = true
 option.textwidth = 80
 option.hidden = true
+option.showmode = false
 
 -- tabs
 option.tabstop = 2
