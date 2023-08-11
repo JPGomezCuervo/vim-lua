@@ -59,4 +59,11 @@ return require('packer').startup(function(use)
   use "windwp/nvim-ts-autotag"
   use "leafOfTree/vim-matchtag"
 
+  -- status line & gitline
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+  use "lewis6991/gitsigns.nvim"
+
 end)
