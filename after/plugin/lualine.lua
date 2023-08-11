@@ -5,7 +5,8 @@ end
 
 lualine.setup({
   options = {
-    icons_enabled = false
+    icons_enabled = false,
+    theme = 'palenight'
   },
    sections = {
     lualine_a = {'mode'},
