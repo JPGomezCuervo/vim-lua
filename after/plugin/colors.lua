@@ -1,4 +1,5 @@
 require('rose-pine').setup({
+
 	--- @usage 'auto'|'main'|'moon'|'dawn'
 	variant = 'auto',
 	--- @usage 'main'|'moon'|'dawn'
