@@ -3,7 +3,7 @@ local option = vim.opt
 -- editor
 option.nu = true
 option.relativenumber = true
-option.textwidth = 80
+option.textwidth = 0
 option.hidden = true
 option.showmode = false
 
