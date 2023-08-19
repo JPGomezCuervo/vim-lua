@@ -59,10 +59,13 @@ cmp.setup({
     end,
   },
   window = {
+    completion = cmp.config.window.bordered(),
     documentation = {
       max_height = 15,
       max_width = 60,
+      cmp.config.window.bordered()
     }
+
   },
   formatting = {
     fields = {'abbr', 'menu', 'kind'},
