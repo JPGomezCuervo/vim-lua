@@ -6,6 +6,7 @@ option.relativenumber = true
 option.textwidth = 0
 option.hidden = true
 option.showmode = false
+vim.opt.guicursor = ""
 
 -- tabs
 option.tabstop = 2

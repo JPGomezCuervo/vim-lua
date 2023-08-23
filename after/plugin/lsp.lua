@@ -11,7 +11,8 @@ lsp.ensure_installed({
   'jsonls',
   'rust_analyzer',
   'custom_elements_ls',
-  'eslint'
+  'eslint',
+  'volar'
 })
 
 -- Fix Undefined global 'vim'
