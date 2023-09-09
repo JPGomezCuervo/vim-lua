@@ -9,9 +9,9 @@ option.showmode = false
 vim.opt.guicursor = ""
 
 -- tabs
-option.tabstop = 4
-option.softtabstop = 4
-option.shiftwidth = 4
+option.tabstop = 2
+option.softtabstop = 2
+option.shiftwidth = 2
 option.expandtab = true
 option.smartindent = true
 option.autoindent = true
