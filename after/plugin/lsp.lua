@@ -13,6 +13,7 @@ lsp.ensure_installed({
   'custom_elements_ls',
   'eslint',
   'volar',
+  'biome'
 
 })
 
