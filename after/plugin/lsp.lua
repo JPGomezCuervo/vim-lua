@@ -13,8 +13,10 @@ lsp.ensure_installed({
   'custom_elements_ls',
   'eslint',
   'volar',
-  'biome'
-
+  'clangd',
+  'marksman',
+  'gopls',
+  'sqlls',
 })
 
 -- Fix Undefined global 'vim'

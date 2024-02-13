@@ -90,11 +90,14 @@ return require('packer').startup(function(use)
   -- Hexokinase
   use {'RRethy/vim-hexokinase', build = "make hexokinase"}
 
-  -- Markdown preview
-  use({
-    "iamcco/markdown-preview.nvim",
-    run = function() vim.fn["mkdp#util#install"]() end,
-  })
+  -- UndoTree
+  use({"mbbill/undotree"})
 
-  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+  --orgmode
+  use {'nvim-treesitter/nvim-treesitter'}
+  use {'nvim-orgmode/orgmode', config = function()
+    require('orgmode').setup{}
+  end
+  }
+
 end)
