@@ -17,11 +17,11 @@ return require('packer').startup(function(use)
   }
 
   -- telescope
-  use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.0',
-    -- or                            , branch = '0.1.x',
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
+use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.5',
+-- or                            , branch = '0.1.x',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 
   -- harpoon
   use ("theprimeagen/harpoon")
@@ -94,7 +94,6 @@ return require('packer').startup(function(use)
   use({"mbbill/undotree"})
 
   --orgmode
-  use {'nvim-treesitter/nvim-treesitter'}
   use {'nvim-orgmode/orgmode', config = function()
     require('orgmode').setup{}
   end
